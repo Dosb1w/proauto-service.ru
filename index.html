@@ -4,9 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+<<<<<<< HEAD
   <title>ПроАвто — шиномонтаж, замена масла в Верхней Пышме</title>
   <meta name="description" content="ПроАвто: профессиональный шиномонтаж, балансировка, замена масла в Верхней Пышме. Работаем быстро и качественно."/>
   <meta name="keywords" content="шиномонтаж Верхняя Пышма, автосервис, замена масла, балансировка колёс, ПроАвто"/>
+=======
+  <!-- ===== SEO: именно это показывается в Яндексе/Google ===== -->
+  <title>ПроАвто — шиномонтаж, замена масла, развал-схождение в Верхней Пышме</title>
+  <meta name="description" content="ПроАвто: профессиональный шиномонтаж, балансировка, замена масла, развал-схождение в Верхней Пышме. Работаем быстро и качественно. Запишитесь онлайн!"/>
+  <meta name="keywords" content="шиномонтаж Верхняя Пышма, автосервис, замена масла, развал схождение, балансировка колёс, ПроАвто"/>
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
   <meta property="og:title" content="ПроАвто — автосервис в Верхней Пышме"/>
   <meta property="og:description" content="Профессиональный шиномонтаж и автосервис. Быстро, качественно, честно."/>
   <meta property="og:type" content="website"/>
@@ -25,7 +32,13 @@
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+<<<<<<< HEAD
     html { scroll-behavior: smooth; }
+=======
+
+    html { scroll-behavior: smooth; }
+
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     body {
       font-family: 'Montserrat', sans-serif;
       background: var(--dark);
@@ -43,6 +56,7 @@
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
     }
+<<<<<<< HEAD
     .logo {
       font-family: 'Bebas Neue', sans-serif;
       font-size: 1.5rem; letter-spacing: .06em;
@@ -57,6 +71,30 @@
       transition: color .2s;
     }
     nav a:hover { color: var(--red); }
+=======
+
+    .logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem;
+      letter-spacing: .06em;
+      color: var(--white);
+      line-height: 1.1;
+    }
+    .logo span { color: var(--red); }
+
+    nav { display: flex; gap: 2rem; }
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-size: .82rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      transition: color .2s;
+    }
+    nav a:hover { color: var(--red); }
+
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     .header-phone {
       font-weight: 700; font-size: .92rem;
       color: var(--white); text-decoration: none;
@@ -71,8 +109,16 @@
       min-height: 100vh;
       display: flex; align-items: center;
       padding: 120px 6vw 80px;
+<<<<<<< HEAD
       position: relative; overflow: hidden;
     }
+=======
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Сетка из линий на фоне */
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     .hero::before {
       content: '';
       position: absolute; inset: 0;
@@ -83,6 +129,11 @@
       animation: gridMove 20s linear infinite;
     }
     @keyframes gridMove { to { background-position: 0 60px; } }
+<<<<<<< HEAD
+=======
+
+    /* Большой декоративный круг */
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     .hero::after {
       content: '';
       position: absolute; right: -10vw; top: 50%;
@@ -93,18 +144,30 @@
       box-shadow: inset 0 0 80px rgba(232,39,42,.05);
       pointer-events: none;
     }
+<<<<<<< HEAD
     .hero-content { position: relative; z-index: 1; max-width: 680px; }
+=======
+
+    .hero-content { position: relative; z-index: 1; max-width: 680px; }
+
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     .hero-badge {
       display: inline-flex; align-items: center; gap: .5rem;
       background: rgba(232,39,42,.12);
       border: 1px solid rgba(232,39,42,.3);
       color: var(--red);
+<<<<<<< HEAD
       padding: .35rem 1rem; border-radius: 2px;
+=======
+      padding: .35rem 1rem;
+      border-radius: 2px;
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
       font-size: .75rem; font-weight: 700;
       letter-spacing: .12em; text-transform: uppercase;
       margin-bottom: 1.6rem;
       animation: fadeUp .6s ease both;
     }
+<<<<<<< HEAD
     h1 {
       font-family: 'Bebas Neue', sans-serif;
       font-size: clamp(3.5rem, 9vw, 7rem);
@@ -118,13 +181,44 @@
       font-size: 1rem; line-height: 1.7; max-width: 500px;
       animation: fadeUp .6s .2s ease both;
     }
+=======
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3.5rem, 9vw, 7rem);
+      line-height: .95;
+      color: var(--white);
+      letter-spacing: .02em;
+      animation: fadeUp .6s .1s ease both;
+    }
+    h1 em {
+      font-style: normal;
+      color: var(--red);
+      display: block;
+    }
+
+    .hero-sub {
+      margin-top: 1.5rem;
+      font-size: 1rem; line-height: 1.7;
+      max-width: 500px;
+      animation: fadeUp .6s .2s ease both;
+    }
+
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     .hero-actions {
       margin-top: 2.4rem;
       display: flex; gap: 1rem; flex-wrap: wrap;
       animation: fadeUp .6s .3s ease both;
     }
+<<<<<<< HEAD
     .btn-primary {
       background: var(--red); color: #fff;
+=======
+
+    .btn-primary {
+      background: var(--red);
+      color: #fff;
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
       padding: .85rem 2.2rem;
       border: none; border-radius: 4px;
       font-family: 'Montserrat', sans-serif;
@@ -134,10 +228,20 @@
       transition: background .2s, transform .15s;
     }
     .btn-primary:hover { background: #c91f22; transform: translateY(-2px); }
+<<<<<<< HEAD
     .btn-outline {
       background: transparent; color: var(--white);
       padding: .85rem 2.2rem;
       border: 1.5px solid var(--border); border-radius: 4px;
+=======
+
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      padding: .85rem 2.2rem;
+      border: 1.5px solid var(--border);
+      border-radius: 4px;
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
       font-family: 'Montserrat', sans-serif;
       font-size: .9rem; font-weight: 700;
       letter-spacing: .06em; text-transform: uppercase;
@@ -146,11 +250,21 @@
     }
     .btn-outline:hover { border-color: var(--red); color: var(--red); }
 
+<<<<<<< HEAD
     /* ── ОБЩИЕ ── */
     section { padding: 100px 6vw; }
     .section-label {
       font-size: .72rem; font-weight: 700; letter-spacing: .18em;
       text-transform: uppercase; color: var(--red); margin-bottom: .8rem;
+=======
+    /* ── УСЛУГИ ── */
+    section { padding: 100px 6vw; }
+
+    .section-label {
+      font-size: .72rem; font-weight: 700; letter-spacing: .18em;
+      text-transform: uppercase; color: var(--red);
+      margin-bottom: .8rem;
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     }
     .section-title {
       font-family: 'Bebas Neue', sans-serif;
@@ -159,6 +273,7 @@
       margin-bottom: 3rem;
     }
 
+<<<<<<< HEAD
     /* ── УСЛУГИ ── */
     .services-grid {
       display: grid;
@@ -179,6 +294,41 @@
     }
     .service-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--white); margin-bottom: .6rem; }
     .service-card p  { font-size: .84rem; line-height: 1.65; color: #888; }
+=======
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5px;
+      border: 1.5px solid var(--border);
+    }
+
+    .service-card {
+      background: var(--card);
+      padding: 2.4rem 2rem;
+      position: relative;
+      overflow: hidden;
+      transition: background .25s;
+      cursor: default;
+    }
+    .service-card:hover { background: #1f1f1f; }
+    .service-card:hover .service-icon { color: var(--red); transform: scale(1.1); }
+
+    .service-icon {
+      font-size: 2.4rem;
+      margin-bottom: 1.2rem;
+      display: block;
+      transition: color .25s, transform .25s;
+    }
+    .service-card h3 {
+      font-size: 1.05rem; font-weight: 700;
+      color: var(--white); margin-bottom: .6rem;
+    }
+    .service-card p {
+      font-size: .84rem; line-height: 1.65;
+      color: #888;
+    }
+
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     .service-num {
       position: absolute; top: 1.2rem; right: 1.4rem;
       font-family: 'Bebas Neue', sans-serif;
@@ -188,26 +338,48 @@
 
     /* ── КАК МЫ РАБОТАЕМ ── */
     .steps { background: #111; }
+<<<<<<< HEAD
     .steps-row {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
       gap: 0; margin-top: 1rem;
       border: 1.5px solid var(--border);
     }
+=======
+
+    .steps-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 0;
+      margin-top: 1rem;
+      border: 1.5px solid var(--border);
+    }
+
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     .step {
       padding: 2rem 1.8rem;
       border-right: 1.5px solid var(--border);
       position: relative;
     }
     .step:last-child { border-right: none; }
+<<<<<<< HEAD
     .step-num {
       font-family: 'Bebas Neue', sans-serif;
       font-size: 3.5rem; color: var(--red);
       line-height: 1; margin-bottom: .8rem; opacity: .7;
+=======
+
+    .step-num {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3.5rem; color: var(--red);
+      line-height: 1; margin-bottom: .8rem;
+      opacity: .7;
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     }
     .step h4 { color: var(--white); font-size: .95rem; margin-bottom: .4rem; }
     .step p  { color: #777; font-size: .83rem; line-height: 1.6; }
 
+<<<<<<< HEAD
     /* ── КОНТАКТЫ ── */
     .contacts-section { background: var(--dark); }
     .contacts-wrap {
@@ -224,10 +396,36 @@
     .contacts-info p { font-size: .9rem; line-height: 1.75; color: #888; margin-bottom: 1.5rem; }
     .contact-line {
       display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;
+=======
+    /* ── ЗАПИСЬ ── */
+    .booking { background: var(--dark); }
+
+    .booking-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    @media(max-width:768px){ .booking-wrap { grid-template-columns: 1fr; gap: 2.5rem; } }
+
+    .booking-info h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      color: var(--white); line-height: 1;
+      margin-bottom: 1.2rem;
+    }
+    .booking-info p { font-size: .9rem; line-height: 1.75; color: #888; margin-bottom: 1.5rem; }
+
+    .contact-line {
+      display: flex; align-items: center; gap: 1rem;
+      margin-bottom: 1rem;
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     }
     .contact-line .icon { font-size: 1.3rem; }
     .contact-line a, .contact-line span {
       color: var(--white); text-decoration: none;
+<<<<<<< HEAD
       font-weight: 600; font-size: .95rem; transition: color .2s;
     }
     .contact-line a:hover { color: var(--red); }
@@ -262,6 +460,75 @@
     }
     .info-row-val { color: var(--white); font-weight: 600; }
     .info-row-sub { color: #888; font-size: .9rem; }
+=======
+      font-weight: 600; font-size: .95rem;
+      transition: color .2s;
+    }
+    .contact-line a:hover { color: var(--red); }
+
+    /* Форма */
+    .booking-form {
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      padding: 2.4rem;
+      border-radius: 6px;
+    }
+    .booking-form h3 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem; color: var(--white);
+      margin-bottom: 1.5rem; letter-spacing: .03em;
+    }
+
+    .form-group { margin-bottom: 1.1rem; }
+    .form-group label {
+      display: block; font-size: .75rem; font-weight: 700;
+      letter-spacing: .1em; text-transform: uppercase;
+      color: #666; margin-bottom: .45rem;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      background: #111;
+      border: 1.5px solid var(--border);
+      color: var(--white);
+      padding: .75rem 1rem;
+      border-radius: 4px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: .88rem;
+      outline: none;
+      transition: border-color .2s;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus { border-color: var(--red); }
+    .form-group select option { background: #1a1a1a; }
+    .form-group textarea { resize: vertical; min-height: 90px; }
+
+    .form-submit {
+      width: 100%;
+      background: var(--red);
+      color: #fff;
+      border: none; border-radius: 4px;
+      padding: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      font-size: .9rem; font-weight: 700;
+      letter-spacing: .08em; text-transform: uppercase;
+      cursor: pointer;
+      margin-top: .5rem;
+      transition: background .2s, transform .15s;
+    }
+    .form-submit:hover { background: #c91f22; transform: translateY(-1px); }
+
+    /* Success */
+    .form-success {
+      display: none;
+      text-align: center;
+      padding: 2rem 0;
+    }
+    .form-success .check { font-size: 3rem; margin-bottom: .8rem; }
+    .form-success p { color: var(--white); font-weight: 600; }
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
 
     /* ── ФУТЕР ── */
     footer {
@@ -273,7 +540,12 @@
     }
     .footer-logo {
       font-family: 'Bebas Neue', sans-serif;
+<<<<<<< HEAD
       font-size: 1.3rem; color: var(--white); letter-spacing: .06em;
+=======
+      font-size: 1.3rem; color: var(--white);
+      letter-spacing: .06em;
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     }
     .footer-logo span { color: var(--red); }
     footer p { color: #444; font-size: .78rem; }
@@ -283,6 +555,10 @@
       from { opacity: 0; transform: translateY(24px); }
       to   { opacity: 1; transform: translateY(0); }
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     .reveal {
       opacity: 0; transform: translateY(28px);
       transition: opacity .6s ease, transform .6s ease;
@@ -304,7 +580,11 @@
   <nav>
     <a href="#services">Услуги</a>
     <a href="#how">Как работаем</a>
+<<<<<<< HEAD
     <a href="#contacts">Контакты</a>
+=======
+    <a href="#booking">Запись</a>
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     <a href="#map">Карта</a>
   </nav>
   <a href="tel:+79122256599" class="header-phone">+7 912 225-65-99</a>
@@ -320,7 +600,11 @@
       делаем честно — без лишних слов.
     </p>
     <div class="hero-actions">
+<<<<<<< HEAD
       <a href="tel:+79122256599" class="btn-primary">📞 Позвонить нам</a>
+=======
+      <a href="#booking" class="btn-primary">Записаться онлайн</a>
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
       <a href="#services" class="btn-outline">Наши услуги</a>
     </div>
   </div>
@@ -332,24 +616,50 @@
   <div class="section-title">Услуги</div>
 
   <div class="services-grid">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     <div class="service-card reveal">
       <span class="service-num">01</span>
       <span class="service-icon">🔄</span>
       <h3>Шиномонтаж</h3>
       <p>Снятие, установка и монтаж шин любых типов. Работаем с легковыми автомобилями, внедорожниками и минивэнами.</p>
     </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     <div class="service-card reveal">
       <span class="service-num">02</span>
       <span class="service-icon">⚖️</span>
       <h3>Балансировка колёс</h3>
       <p>Устранение вибрации и биения руля. Современное оборудование обеспечивает точность до грамма.</p>
     </div>
+<<<<<<< HEAD
     <div class="service-card reveal">
       <span class="service-num">03</span>
+=======
+
+    <div class="service-card reveal">
+      <span class="service-num">03</span>
+      <span class="service-icon">📐</span>
+      <h3>Развал-схождение</h3>
+      <p>3D-стенд для точной регулировки углов установки колёс. Продлевает срок службы шин и улучшает управляемость.</p>
+    </div>
+
+    <div class="service-card reveal">
+      <span class="service-num">04</span>
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
       <span class="service-icon">🛢️</span>
       <h3>Замена масла и фильтров</h3>
       <p>Замена моторного, трансмиссионного масла и всех видов фильтров. Только оригинальные или сертифицированные расходники.</p>
     </div>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
   </div>
 </section>
 
@@ -361,8 +671,13 @@
   <div class="steps-row">
     <div class="step reveal">
       <div class="step-num">01</div>
+<<<<<<< HEAD
       <h4>Звонок</h4>
       <p>Позвоните нам — уточним свободное время и что нужно сделать.</p>
+=======
+      <h4>Запись</h4>
+      <p>Позвоните или заполните форму на сайте — выберете удобное время.</p>
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     </div>
     <div class="step reveal">
       <div class="step-num">02</div>
@@ -382,6 +697,7 @@
   </div>
 </section>
 
+<<<<<<< HEAD
 <!-- КОНТАКТЫ -->
 <section id="contacts" class="contacts-section">
   <div class="contacts-wrap">
@@ -390,6 +706,16 @@
       <div class="section-label">Контакты</div>
       <h2>Свяжитесь<br>с нами</h2>
       <p>Позвоните или напишите в мессенджер — ответим быстро и расскажем всё о стоимости работ.</p>
+=======
+<!-- ЗАПИСЬ -->
+<section id="booking" class="booking">
+  <div class="booking-wrap">
+
+    <div class="booking-info reveal">
+      <div class="section-label">Контакты</div>
+      <h2>Запишитесь<br>прямо сейчас</h2>
+      <p>Оставьте заявку онлайн или свяжитесь с нами любым удобным способом — ответим в течение 15 минут.</p>
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
 
       <div class="contact-line">
         <span class="icon">📞</span>
@@ -397,7 +723,7 @@
       </div>
       <div class="contact-line">
         <span class="icon">🕐</span>
-        <span>Пн–Вс: 09:00 – 18:00</span>
+        <span>Пн–Вс: 09:00 – 21:00</span>
       </div>
       <div class="contact-line">
         <span class="icon">📍</span>
@@ -407,6 +733,7 @@
         <span class="icon">💬</span>
         <a href="#">WhatsApp / Telegram</a>
       </div>
+<<<<<<< HEAD
 
       <a href="tel:+79122256599" class="call-btn">📞 Позвонить</a>
     </div>
@@ -416,7 +743,7 @@
       <div class="info-row">
         <div class="info-row-label">Режим работы</div>
         <div class="info-row-val">Понедельник – Воскресенье</div>
-        <div class="info-row-sub">09:00 – 18:00</div>
+        <div class="info-row-sub">09:00 – 21:00</div>
       </div>
       <div class="info-row">
         <div class="info-row-label">Телефон</div>
@@ -426,6 +753,40 @@
         <div class="info-row-label">Адрес</div>
         <div class="info-row-val">ул. Гальянова 3</div>
         <div class="info-row-sub">Верхняя Пышма</div>
+=======
+    </div>
+
+    <div class="booking-form reveal">
+      <h3>Онлайн-запись</h3>
+      <div id="formBody">
+        <div class="form-group">
+          <label>Ваше имя</label>
+          <input type="text" placeholder="Иван Иванов"/>
+        </div>
+        <div class="form-group">
+          <label>Телефон</label>
+          <input type="tel" placeholder="+7 (___) ___-__-__"/>
+        </div>
+        <div class="form-group">
+          <label>Услуга</label>
+          <select>
+            <option value="">Выберите услугу</option>
+            <option>Шиномонтаж</option>
+            <option>Балансировка колёс</option>
+            <option>Развал-схождение</option>
+            <option>Замена масла и фильтров</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Комментарий (необязательно)</label>
+          <textarea placeholder="Марка и модель автомобиля, описание проблемы…"></textarea>
+        </div>
+        <button class="form-submit" onclick="submitForm()">Отправить заявку →</button>
+      </div>
+      <div class="form-success" id="formSuccess">
+        <div class="check">✅</div>
+        <p>Заявка принята!<br>Мы перезвоним вам в течение 15 минут.</p>
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
       </div>
     </div>
 
@@ -440,12 +801,20 @@
   </div>
   <div style="position:relative; width:100%; height:420px; border-top: 1.5px solid var(--border); border-bottom: 1.5px solid var(--border); overflow:hidden;">
     <iframe
+<<<<<<< HEAD
       src="https://yandex.ru/map-widget/v1/?org_id=168821052317&ll=60.558690%2C56.972206&z=18&l=map"
+=======
+      src="https://yandex.ru/map-widget/v1/?text=Верхняя+Пышма+ул+Гальянова+3&z=16&l=map&pt=60.573910,56.978540,pm2rdm"
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
       width="100%" height="100%"
       frameborder="0"
       allowfullscreen
       style="display:block; filter: grayscale(30%) contrast(1.05);"
     ></iframe>
+<<<<<<< HEAD
+=======
+    <!-- Плашка поверх карты -->
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
     <div style="
       position:absolute; bottom:24px; left:50%; transform:translateX(-50%);
       background: rgba(15,15,15,.92);
@@ -483,6 +852,10 @@
 </footer>
 
 <script>
+<<<<<<< HEAD
+=======
+  // Scroll reveal
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
   const reveals = document.querySelectorAll('.reveal');
   const io = new IntersectionObserver(entries => {
     entries.forEach((e, i) => {
@@ -493,6 +866,15 @@
     });
   }, { threshold: 0.1 });
   reveals.forEach(r => io.observe(r));
+<<<<<<< HEAD
+=======
+
+  // Fake form submit
+  function submitForm() {
+    document.getElementById('formBody').style.display = 'none';
+    document.getElementById('formSuccess').style.display = 'block';
+  }
+>>>>>>> 1bdfe66198ffe85dee761bb8f0ff3a047f4f26bd
 </script>
 
 </body>
