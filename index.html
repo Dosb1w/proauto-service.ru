@@ -304,6 +304,7 @@
   <nav>
     <a href="#services">Услуги</a>
     <a href="#how">Как работаем</a>
+    <a href="#diy">Сделай сам</a>
     <a href="#contacts">Контакты</a>
     <a href="#map">Карта</a>
   </nav>
@@ -347,8 +348,15 @@
     <div class="service-card reveal">
       <span class="service-num">03</span>
       <span class="service-icon">🛢️</span>
-      <h3>Замена масла и фильтров</h3>
-      <p>Замена моторного, трансмиссионного масла и всех видов фильтров. Только оригинальные или сертифицированные расходники.</p>
+      <h3>Замена технических жидкостей</h3>
+      <p>Замена моторного и трансмиссионного масла, всех видов фильтров, охлаждающей жидкости (антифриз), тормозной жидкости.</p>
+    </div>
+
+    <div class="service-card reveal">
+      <span class="service-num">04</span>
+      <span class="service-icon">🔩</span>
+      <h3>Слесарные работы по ходовой части</h3>
+      <p>Диагностика и ремонт подвески: замена шаровых опор, сайлентблоков, рулевых тяг, ступичных подшипников, амортизаторов. Без скрытых доплат.</p>
     </div>
   </div>
 </section>
@@ -381,6 +389,65 @@
     </div>
   </div>
 </section>
+
+<!-- СДЕЛАЙ САМ -->
+<section id="diy" style="background: #111;">
+  <div class="section-label">Для тех, кто любит сам</div>
+  <div class="section-title">Сделай сам</div>
+
+  <div class="diy-wrap" style="display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center;">
+
+    <div class="reveal">
+      <p style="font-size:1rem; line-height:1.8; color:#aaa; margin-bottom:1.5rem;">
+        Хочешь отремонтировать машину сам? Мы предоставим тебе полностью оснащённый бокс с
+        профессиональным инструментом и оборудованием — всё что нужно для работы уже на месте.
+        Мастер всегда рядом и готов подсказать.
+      </p>
+      <a href="tel:+79122256599" style="
+        display:inline-block; background:var(--red); color:#fff;
+        padding:.85rem 2.2rem; border-radius:4px;
+        font-family:'Montserrat',sans-serif; font-size:.9rem; font-weight:700;
+        letter-spacing:.06em; text-transform:uppercase; text-decoration:none;
+        transition:background .2s,transform .15s;
+      ">📞 Узнать подробности</a>
+    </div>
+
+    <div class="reveal" style="background:var(--card); border:1.5px solid var(--border); border-radius:6px; padding:2.4rem 2rem;">
+      <div style="
+        display:inline-flex; align-items:center; gap:.5rem;
+        background:rgba(232,39,42,.12); border:1px solid rgba(232,39,42,.3);
+        color:var(--red); padding:.35rem 1rem; border-radius:2px;
+        font-size:.75rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+        margin-bottom:1.5rem;
+      ">Аренда бокса</div>
+
+      <div style="font-family:'Bebas Neue',sans-serif; font-size:4rem; color:var(--white); line-height:1; margin-bottom:.4rem;">
+        3 000 <span style="font-size:2rem; color:#888;">₽/день</span>
+      </div>
+      <div style="color:#666; font-size:.85rem; margin-bottom:1.8rem;">Полный рабочий день</div>
+
+      <div style="display:flex; flex-direction:column; gap:.8rem;">
+        <div style="display:flex; align-items:center; gap:.8rem;">
+          <span style="color:var(--red);">✓</span><span style="color:#bbb; font-size:.9rem;">Полный комплект инструмента</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:.8rem;">
+          <span style="color:var(--red);">✓</span><span style="color:#bbb; font-size:.9rem;">Профессиональное оборудование</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:.8rem;">
+          <span style="color:var(--red);">✓</span><span style="color:#bbb; font-size:.9rem;">Подъёмник в боксе</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:.8rem;">
+          <span style="color:var(--red);">✓</span><span style="color:#bbb; font-size:.9rem;">Совет мастера включён</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  @media(max-width:768px){ .diy-wrap { grid-template-columns:1fr !important; gap:2rem !important; } }
+</style>
 
 <!-- КОНТАКТЫ -->
 <section id="contacts" class="contacts-section">
@@ -469,7 +536,7 @@
       <div style="width:1px;height:36px;background:var(--border);"></div>
       <div>
         <div style="font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-bottom:.2rem;">Режим работы</div>
-        <div style="color:var(--white);font-weight:600;font-size:.9rem;">Пн–Вс 09:00–18:00</div>
+        <div style="color:var(--white);font-weight:600;font-size:.9rem;">Пн–Вс 09:00–21:00</div>
       </div>
     </div>
   </div>
